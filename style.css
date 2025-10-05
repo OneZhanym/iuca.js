@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: grey;
+}
+
+#counter {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: black;
+    font-family: 'Courier New', monospace;
+}
+
+button{
+    background-color: plum;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
+
+#speed{
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+}
