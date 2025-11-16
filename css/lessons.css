@@ -51,7 +51,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 500px; /* Фиксированная минимальная высота */
+    min-height: 550px; 
     height: auto;
 }
 
@@ -207,4 +207,52 @@ hr {
 
 .tab_content_block:first-child {
     display: flex;
+}
+
+.card {
+    width: 500px;
+    height: 250px;
+    border: 2px solid var(--orange);
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background: rgba(255, 165, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.quote-context {
+    color: #ffa500;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.quote-text {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin: 15px 0;
+}
+
+.quote-reaction {
+    color: #00ff00;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.quote-number {
+    color: #ccc;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(255, 165, 0, 0.4);
 }
